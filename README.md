@@ -29,6 +29,15 @@ Watermarkd is built on two Python libraries in addition to several default Pytho
 
 Please make sure these libraries are installed before using Watermarkd. You can also refer to our requirements.txt.
 
+The Python Imaging Library (PIL) is
+
+    Copyright © 1997-2011 by Secret Labs AB
+    Copyright © 1995-2011 by Fredrik Lundh
+
+Pillow is the friendly PIL fork. It is
+
+    Copyright © 2010-2020 by Alex Clark and contributors
+
 # Examples
 
 ## Single File Example

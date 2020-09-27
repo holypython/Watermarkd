@@ -21,7 +21,7 @@ setup(
    author='holypython.com',
    author_email='watermarkd@holypython.com',
    url="https://holypython.com/",
-   download_url = 'https://github.com/holypython/Watermarkd/archive/0.7.0.2.tar.gz',
+   download_url = 'https://github.com/holypython/Watermarkd/archive/0.7.0.3.tar.gz',
    packages=['Watermarkd'],
    keywords = ['watermarking', 'image processing', 'watermark', 'photography', 'copyrights', 'holypython', 'batch watermark', 'holypython.com'],
    classifiers=[

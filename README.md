@@ -94,7 +94,9 @@ batch the other function can be used to watermark a folder of images at once. Th
 Currently batch function is missing the GUI component which should be ready soon.
 
 Default output file name and path are as following:
+
 Output Path: r"c:/Users/"+user_path+"/Desktop/watermarkd_/"
+
 Output File: 1.png, 2.png, 3.png, 4.png and so on.
 
 ## Parameters
@@ -156,6 +158,7 @@ It's expected to be dominantly used by:
 ## Release Notes
 
 0.7.0.1 - Initial release is out.
+
 0.7.0.2 - Added functionality to add folder for batch operations when saving folder doesn't already exist.
 
 

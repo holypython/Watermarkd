@@ -3,3 +3,184 @@ Friendly Watermarking Software with GUI option.
 
 
 [![Watermarkd_logo](https://github.com/holypython/holypython2/blob/master/default.png)](https://holypython.com)
+
+
+# Watermarkd User's Manual
+
+
+# Installation
+
+Watermarkd can be installed using this command:
+
+```
+pip install Watermarkd
+or
+pip3 install Watermarkd
+```
+
+# Dependencies
+
+Watermarkd is built on two Python libraries in addition to several default Python libraries. These are:
+
+1) PIL
+2) PySimpleGui
+
+Please make sure these libraries are installed before using Watermarkd. You can also refer to our requirements.txt.
+
+# Examples
+
+## Single File Example
+
+### With GUI Enabled
+
+```python
+import Watermarkd as wmd
+
+#Enable GUI & Enjoy
+wmd.Spread.single(gui=True)
+
+```
+### Working Without GUI
+
+```python
+import Watermarkd as wmd
+
+#Or work without GUI
+wmd.Spread.single(img_path=r"c://Users/ABC/Desktop/Anniversary.jpg")
+
+```
+* File will be saved to Desktop under name Watermarkd.png by default.
+
+## Batch Example
+
+```python
+import Watermarkd as wmd
+
+#Or work without GUI
+wmd.Spread.batch(folder_path=r"c://Users/ABC/Desktop/New_Photos")
+
+```
+
+* GUI for Batch Function is in the works.
+** Files will be saved to Desktop/watermarkd_/ folder by default.
+
+## Functions
+
+There are currently two functions in Watermarkd module and they both belong to Spread class. They both aim to do a good job spreading out watermark texts nicely on image file(s).
+
+### Spread.single()
+
+single is one of the two current functions, the other being batch. It can be used to watermark a single image file.
+
+It shares most of the same parameters with batch function with the exception of:
+
+-img_path
+
+which is replaced with:
+
+-folder_path
+
+in the batch case.
+
+Default output file name and path are as following:
+r"c:/Users/"+user_path+"/Desktop/watermarkd.png"
+
+### Spread.batch()
+
+batch the other function can be used to watermark a folder of images at once. This option can be useful for people who has to deal with watermarking images in large amounts and in high frequency.
+
+Currently batch function is missing the GUI component which should be ready soon.
+
+Default output file name and path are as following:
+Output Path: r"c:/Users/"+user_path+"/Desktop/watermarkd_/"
+Output File: 1.png, 2.png, 3.png, 4.png and so on.
+
+## Parameters
+
+- gui, (default=False) : Opens graphical user interface when True
+- img_path: Image's Path and Name for Watermarking
+- folder_path : For Batch Operation, Folder's Path for Watermarking
+- wm_text, (default= Watermarkd) : Watermark Text 
+- wm_trans, (default= 85) : Watermark Transparency
+- font_size, (default= 55) : Watermark Font Size
+- font_name, (default= "arial.ttf") : Font Type
+- output_filename, (default= r"c:/Users/"+user_path+"/Desktop/watermarkd.png") : Watermarked File Name When Saving
+- output_folder_name, (default= r"c:/Users/"+user_path+"/Desktop/watermarkd_/") : Watermarked File Path When Batch Saving
+
+# Use Cases
+
+Although watermarking technology existed long before digital technologies (on money, stamps and special documents), its use cases reached astronomical levels with the revolution of digital imaging brought about in the last couple of decades.
+
+Watermarkd aims to help users do watermarking in the most practical sense, without having to open resource heavy Photo Editors. You can probably be done with Watermarking all together via Watermarkd in the time that it takes for a traditional Image Editing Software to load up in most computers.
+
+Through photos, watermarking can be used to:
+
+- Communicate contact information
+- Advertise
+- Share artist info
+- Share owner info
+- Imply Confidentiality
+- Imply Sensitivity
+- Post instructions
+- Notify of copyright
+etc.
+
+It's expected to be dominantly used by:
+
+- Professional photographers
+- Illustrators
+- Visual Artists
+- Newspapers and Magazines
+- Bloggers
+- Media agencies
+- Businesses in general
+- Educational institutions
+- Non-profit organizations
+- Military & Law Enforcement
+
+## Known Issues
+
+- Batch function is missing GUI component
+- Path names can work roughly. In current stage user has to be careful about providing "/" in the end of path parameters.
+- Sometimes, current algorithm doesn't spread out the watermark as nicely. This happens in approximately 10-20% of different size and shapes of photos. It can be fixed by improving the algorithm.
+
+## Versions
+|Version | Description |
+|--|--|
+| 0.7.0.1 | September 27, 2020 - Initial Release |
+| 0.7.0.2 | September 28, 2020 - New Version |
+
+## Release Notes
+
+0.7.0.1 - Initial release is out.
+0.7.0.2 - Added functionality to add folder for batch operations when saving folder doesn't already exist.
+
+
+### Upcoming Work
+
+Batch Graphic User Interface (soon)
+
+Improved algorithm For spreading out watermark text (maybe soon)
+
+A sibgling class to the only current class: Spread, potentially named Place that can be used to places a single watermark text on the image. (not so soon)
+
+
+# Author & Owner
+
+Written and owned by Holypython.com a Python lessons, tutorials and exercises site.
+
+This documentation as well as all other Watermarkd documentation and code is Copyright 2020, 2021, 2022 by Holypython.com
+
+Send correspondence to watermarkd@holypython.com
+
+## License
+
+Apache-2.0
+
+## Acknowledgments
+
+PySimpleGui and PIL libraries for faciliating and inspiring.
+
+UMICH Professors Dr. Charles Severance & Dr. Paul Resnick, for doing an amazing job teaching Python.
+
+Stack Exchange Co-Founder Jeff Atwood for giving us such an amazing platform to learn and share and also for sharing inspiring knowledge on his blog and other platforms.

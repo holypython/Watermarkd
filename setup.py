@@ -26,9 +26,11 @@ setup(
    keywords = ['watermarking', 'image processing', 'watermark', 'photography', 'copyrights', 'holypython', 'batch watermark', 'holypython.com'],
    classifiers=[
        "Development Status :: 3 - Alpha",
-       "Intended Audience :: Developers :: Photographers :: Bloggers :: Businesses :: Entrepreneurs",
+       "Intended Audience :: Developers",
+       "Intended Audience :: Education",
+       "Intended Audience :: End Users/Desktop",
        "Programming Language :: Python :: 3",
-       "License :: OSI Approved :: Apache-2.0 License",
+       "License :: OSI Approved :: Apache Software License",
        "Operating System :: OS Independent",
    ],
 

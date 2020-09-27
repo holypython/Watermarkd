@@ -167,7 +167,7 @@ A sibgling class to the only current class: Spread, potentially named Place that
 
 # Author & Owner
 
-Written and owned by Holypython.com a Python lessons, tutorials and exercises site.
+Written and owned by Holypython.com a Python lessons, tutorials and exercises site. (https://holypython.com)
 
 This documentation as well as all other Watermarkd documentation and code is Copyright 2020, 2021, 2022 by Holypython.com
 
@@ -181,6 +181,6 @@ Apache-2.0
 
 PySimpleGui and PIL libraries for faciliating and inspiring.
 
-UMICH Professors Dr. Charles Severance & Dr. Paul Resnick, for doing an amazing job teaching Python.
+UMICH Professors Dr. Charles Severance & Dr. Paul Resnick, for doing an amazing job teaching Python and CS.
 
 Stack Exchange Co-Founder Jeff Atwood for giving us such an amazing platform to learn and share and also for sharing inspiring knowledge on his blog and other platforms.

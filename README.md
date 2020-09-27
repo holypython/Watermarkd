@@ -163,6 +163,7 @@ It's expected to be dominantly used by:
 |--|--|
 | 0.7.0.1 | September 27, 2020 - Initial Release |
 | 0.7.0.2 | September 28, 2020 - New Version |
+| 0.7.0.3 | September 28, 2020 - New Version | __init__.py fixed
 
 ## Release Notes
 
@@ -170,6 +171,7 @@ It's expected to be dominantly used by:
 
 0.7.0.2 - Added functionality to add folder for batch operations when saving folder doesn't already exist.
 
+0.7.0.3 - Fixed __init__.py files for correct installation.
 
 ### Upcoming Work
 

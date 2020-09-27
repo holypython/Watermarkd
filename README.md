@@ -49,6 +49,7 @@ import Watermarkd as wmd
 wmd.Spread.single(img_path=r"c://Users/ABC/Desktop/Anniversary.jpg")
 
 ```
+* File will be saved to Desktop under name Watermarkd.png by default.
 
 ## Batch Example
 
@@ -56,15 +57,16 @@ wmd.Spread.single(img_path=r"c://Users/ABC/Desktop/Anniversary.jpg")
 import Watermarkd as wmd
 
 #Or work without GUI
-wmd.Spread.batch(img_folder=r"c://Users/ABC/Desktop/New_Photos")
+wmd.Spread.batch(folder_path=r"c://Users/ABC/Desktop/New_Photos")
 
 ```
 
-Note: GUI for Batch Function is in the works.
+* GUI for Batch Function is in the works.
+** Files will be saved to Desktop/watermarkd_/ folder by default.
 
 ## Functions
 
-There are currently two useful functions in Watermarkd module and they both belong to Spread class. They both aim to do a good job spreading out watermark texts nicely on image file(s).
+There are currently two functions in Watermarkd module and they both belong to Spread class. They both aim to do a good job spreading out watermark texts nicely on image file(s).
 
 ### Spread.single()
 
@@ -80,11 +82,18 @@ which is replaced with:
 
 in the batch case.
 
+Default output file name and path are as following:
+r"c:/Users/"+user_path+"/Desktop/watermarkd.png"
+
 ### Spread.batch()
 
 batch the other function can be used to watermark a folder of images at once. This option can be useful for people who has to deal with watermarking images in large amounts and in high frequency.
 
 Currently batch function is missing the GUI component which should be ready soon.
+
+Default output file name and path are as following:
+Output Path: r"c:/Users/"+user_path+"/Desktop/watermarkd_/"
+Output File: 1.png, 2.png, 3.png, 4.png and so on.
 
 ## Parameters
 
@@ -94,11 +103,13 @@ Currently batch function is missing the GUI component which should be ready soon
 - wm_text, (default= Watermarkd) : Watermark Text 
 - wm_trans, (default= 85) : Watermark Transparency
 - font_size, (default= 55) : Watermark Font Size
-- output_filename, (default= r"c:/Users/"+user_path+"/Desktop/watermarkd.png") : Watermarked File Name While Saving
-
+- font_name, (default= "arial.ttf") : Font Type
+- output_filename, (default= r"c:/Users/"+user_path+"/Desktop/watermarkd.png") : Watermarked File Name When Saving
+- output_folder_name, (default= r"c:/Users/"+user_path+"/Desktop/watermarkd_/") : Watermarked File Path When Batch Saving
 
 # Use Cases
-Although watermarking technology existed long before digital technologies, it's use cases reached astronomical levels with the revolution of digital imaging brought about in the last couple of decades.
+
+Although watermarking technology existed long before digital technologies (on money, stamps and special documents), its use cases reached astronomical levels with the revolution of digital imaging brought about in the last couple of decades.
 
 Watermarkd aims to help users do watermarking in the most practical sense, without having to open resource heavy Photo Editors. You can probably be done with Watermarking all together via Watermarkd in the time that it takes for a traditional Image Editing Software to load up in most computers.
 
@@ -127,28 +138,27 @@ It's expected to be dominantly used by:
 - Non-profit organizations
 - Military & Law Enforcement
 
+## Known Issues
 
-
-
-## GitHub Repos
-
-If you've created a GitHub for your project that uses PySimpleGUI then please post screenshots in in the "User's Screenshots" Issue on the PySimpleGUI GitHub.  Say a little something about it and I'll also add it to the announcements. People *love* success stories and showing your GUI's screen visually communicates your success. 
+- Batch function is missing GUI component
+- Path names can work roughly. In current stage user has to be careful about providing "/" in the end of path parameters.
+- Sometimes, current algorithm doesn't spread out the watermark as nicely. This happens in approximately 10-20% of different size and shapes of photos. It can be fixed by improving the algorithm.
 
 ## Versions
 |Version | Description |
 |--|--|
-| 0.7.0.1 | September 30, 2020 - Initial Release |
-
+| 0.7.0.1 | September 27, 2020 - Initial Release |
+| 0.7.0.2 | September 28, 2020 - New Version |
 
 ## Release Notes
 
 0.7.0.1 - Initial release is out.
+0.7.0.2 - Added functionality to add folder for batch operations when saving folder doesn't already exist.
 
 
-### Upcoming
+### Upcoming Work
 
-
-Graphic User Interface for batch function (soon)
+Batch Graphic User Interface (soon)
 
 Improved algorithm For spreading out watermark text (maybe soon)
 
@@ -171,9 +181,6 @@ Apache-2.0
 
 PySimpleGui and PIL libraries for faciliating and inspiring.
 
-UMICH Professor Dr. Charles Severance, for his invaluable contribution both as a professor and a CS influencer.
+UMICH Professors Dr. Charles Severance & Dr. Paul Resnick, for doing an amazing job teaching Python.
 
-
-## Support
-
-In response to a number of email contacts from individuals and corporations that are using PySimpleGUI that wanted to financially support the project a "Support" Button was added to the GitHub site.  This support button is connected with a PayPal account.  If you wish to help support this currently freely supplied software and free technical support, then follow this link: www.paypal.me/psgui .
+Stack Exchange Co-Founder Jeff Atwood for giving us such an amazing platform to learn and share and also for sharing inspiring knowledge on his blog and other platforms.

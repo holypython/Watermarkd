@@ -13,9 +13,11 @@ Friendly Watermarking Software with GUI option.
 Watermarkd can be installed using this command:
 
 ```
-pip install Watermarkd
+pip install watermarkd
+```
 or
-pip3 install Watermarkd
+```
+pip3 install watermarkd
 ```
 
 # Dependencies
@@ -137,6 +139,7 @@ It's expected to be dominantly used by:
 - Educational institutions
 - Non-profit organizations
 - Military & Law Enforcement
+- Entrepreneurs
 
 ## Known Issues
 

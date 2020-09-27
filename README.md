@@ -49,8 +49,8 @@ import Watermarkd as wmd
 
 #Enable GUI & Enjoy
 wmd.Spread.single(gui=True)
-
 ```
+
 ### Working Without GUI
 
 ```python
@@ -58,8 +58,8 @@ import Watermarkd as wmd
 
 #Or work without GUI
 wmd.Spread.single(img_path=r"c://Users/ABC/Desktop/Anniversary.jpg")
-
 ```
+
 * File will be saved to Desktop under name Watermarkd.png by default.
 
 ## Batch Example
@@ -69,7 +69,6 @@ import Watermarkd as wmd
 
 #Or work without GUI
 wmd.Spread.batch(folder_path=r"c://Users/ABC/Desktop/New_Photos")
-
 ```
 
 * GUI for Batch Function is in the works.

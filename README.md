@@ -2,7 +2,7 @@
 Friendly Watermarking Software with GUI option.
 
 
-[![Watermarkd_logo](https://github.com/holypython/holypython2/blob/master/default.png)](https://holypython.com)
+[![Watermarkd_logo](https://github.com/holypython/holypython2/blob/master/HP_logo_h.png)](https://holypython.com)
 
 
 # Watermarkd User's Manual
@@ -153,9 +153,9 @@ It's expected to be dominantly used by:
 
 ## Known Issues
 
-- Batch function is missing GUI component
-- Path names can work roughly. In current stage user has to be careful about providing "/" in the end of path parameters.
 - Sometimes, current algorithm doesn't spread out the watermark as nicely. This happens in approximately 10-20% of different size and shapes of photos. It can be fixed by improving the algorithm.
+
+- In batch function font size is not calculated dynamically. When a folder has images with very different image resolutions this can cause a problem of very different watermark font sizes.
 
 ## Versions
 |Version | Description |
@@ -163,6 +163,7 @@ It's expected to be dominantly used by:
 | 0.7.0.1 | September 27, 2020 - Initial Release |
 | 0.7.0.2 | September 28, 2020 - New Version |
 | 0.7.0.3 | September 28, 2020 - New Version | __init__.py fixed
+| 0.7.1.0 | September 29, 2020 - New Version with GUI enabled batch function and less bugs | __init__.py fixed
 
 ## Release Notes
 
@@ -172,11 +173,17 @@ It's expected to be dominantly used by:
 
 0.7.0.3 - Fixed __init__.py files for correct installation.
 
+0.7.1.0 - Added Batch GUI, fixed Cancel button, fixed path conflicts
+
 ### Upcoming Work
 
-Batch Graphic User Interface (soon)
+Batch Graphic User Interface (done)
+
+Add Dynamic font_size calculation to batch function. (soon)
 
 Improved algorithm For spreading out watermark text (maybe soon)
+
+Add color options for watermarking white color dominant images (maybe soon)
 
 A sibgling class to the only current class: Spread, potentially named Place that can be used to places a single watermark text on the image. (not so soon)
 

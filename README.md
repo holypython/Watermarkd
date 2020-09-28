@@ -164,6 +164,7 @@ It's expected to be dominantly used by:
 | 0.7.0.2 | September 28, 2020 - New Version |
 | 0.7.0.3 | September 28, 2020 - New Version | __init__.py fixed
 | 0.7.1.0 | September 29, 2020 - New Version with GUI enabled batch function and less bugs | __init__.py fixed
+| 0.7.1.1 | September 29, 2020 - New Version | code typo fixed
 
 ## Release Notes
 

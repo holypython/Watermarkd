@@ -275,8 +275,3 @@ class Spread:
             watermarked = Image.alpha_composite(img, txt)
             watermarked = watermarked.convert("RGB")
             watermarked.save(save_to_path+"/"+filename+str(c)+save_to_suffix)
-            
-
-# Spread.batch(folder_path="c:/Users/USA/Desktop/newnew2/")
-# Spread.batch(gui=True)
-Spread.single(gui=True)

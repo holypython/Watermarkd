@@ -5,7 +5,7 @@ Friendly Watermarking Software with GUI option.
 [![Watermarkd_logo](https://raw.githubusercontent.com/holypython/Watermarkd/master/HP_logo_h.png)](https://holypython.com)
 
 
-# Watermarkd User's Manual
+# Watermarkd User Manual
 
 
 # Installation

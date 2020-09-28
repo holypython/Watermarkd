@@ -116,8 +116,10 @@ Output File: 1.png, 2.png, 3.png, 4.png and so on.
 - wm_trans, (default= 85) : Watermark Transparency
 - font_size, (default= 55) : Watermark Font Size
 - font_name, (default= "arial.ttf") : Font Type
-- output_filename, (default= r"c:/Users/"+user_path+"/Desktop/watermarkd.png") : Watermarked File Name When Saving
-- output_folder_name, (default= r"c:/Users/"+user_path+"/Desktop/watermarkd_/") : Watermarked File Path When Batch Saving
+- filename, (default="Watermarkd") : Saving File Name
+- save_to_path, (default="Desktop/watermarkd_"): Saving Folder Path
+- save_to_suffix, (default=".png") : Saving File Type
+- output_filename, (default= r"c:/Users/"+user_path+"/Desktop/watermarkd.png") : Watermarked File Name When Saving Single File
 
 # Use Cases
 
@@ -162,9 +164,10 @@ It's expected to be dominantly used by:
 |--|--|
 | 0.7.0.1 | September 27, 2020 - Initial Release |
 | 0.7.0.2 | September 28, 2020 - New Version |
-| 0.7.0.3 | September 28, 2020 - New Version | __init__.py fixed
-| 0.7.1.0 | September 29, 2020 - New Version with GUI enabled batch function and less bugs | __init__.py fixed
-| 0.7.1.1 | September 29, 2020 - New Version | code typo fixed
+| 0.7.0.3 | September 28, 2020 - New Version: __init__.py fixed |
+| 0.7.1.0 | September 29, 2020 - New Version w/ batch GUI: __init__.py fixed, bugs fixed |
+| 0.7.1.1 | September 29, 2020 - New Version: code typo fixed |
+| 0.7.1.2 | September 29, 2020 - New Version: logo fixed, source code correct description added |
 
 ## Release Notes
 
@@ -178,7 +181,7 @@ It's expected to be dominantly used by:
 
 ### Upcoming Work
 
-Batch Graphic User Interface (done)
+~Batch Graphic User Interface (done)~
 
 Add Dynamic font_size calculation to batch function. (soon)
 

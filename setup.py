@@ -14,14 +14,14 @@ with open("README.md", 'r') as f:
 
 setup(
    name='Watermarkd',
-   version='0.7.0.3',
+   version='0.7.1.0',
    description='A friendly watermarking tool with optional GUI component.',
    license="Apache-2.0",
    long_description=long_description,
    author='holypython.com',
    author_email='watermarkd@holypython.com',
    url="https://holypython.com/",
-   download_url = 'https://github.com/holypython/Watermarkd/archive/0.7.0.3.tar.gz',
+   download_url = 'https://github.com/holypython/Watermarkd/archive/0.7.1.0.tar.gz',
    packages=['Watermarkd'],
    keywords = ['watermarking', 'image processing', 'watermark', 'photography', 'copyrights', 'holypython', 'batch watermark', 'holypython.com'],
    classifiers=[

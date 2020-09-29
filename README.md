@@ -183,13 +183,13 @@ It's expected to be dominantly used by:
 
 ~Batch Graphic User Interface (done)~
 
+Add color options for watermarking white color dominant images (soon)
+
 Add Dynamic font_size calculation to batch function. (soon)
 
-Improved algorithm For spreading out watermark text (maybe soon)
+Improved algorithm For spreading out watermark text (soon)
 
-Add color options for watermarking white color dominant images (maybe soon)
-
-A sibgling class to the only current class: Spread, potentially named Place that can be used to places a single watermark text on the image. (not so soon)
+A sibling class to the only current class: Spread, potentially named Place that can be used to places a single watermark text on the image. (maybe soon)
 
 
 # Author & Owner
@@ -208,6 +208,6 @@ Apache-2.0
 
 PySimpleGui and PIL libraries for faciliating and inspiring.
 
-UMICH Professors Dr. Charles Severance & Dr. Paul Resnick, for doing an amazing job teaching Python and CS.
+UMICH Professors Dr. Charles Severance & Dr. Paul Resnick, for doing an amazing job teaching Python and their inspirational Computer Science works.
 
-Stack Exchange Co-Founder Jeff Atwood for giving us such an amazing platform to learn and share and also for sharing inspiring knowledge on his blog and other platforms.
+Stack Overflow Co-Founder Jeff Atwood for creating such an amazing platform to learn and share and also for sharing inspiring knowledge on his blog and other platforms.

@@ -65,10 +65,12 @@ class Spread:
                 break
                 
             elif event=="Preview":
-            
-                img_path=values["-IN2-"]
-                img = Image.open(img_path).convert("RGBA")
-                img.show()
+                try:
+                    img_path=values["-IN2-"]
+                    img = Image.open(img_path).convert("RGBA")
+                    img.show()
+                except Exception:
+                    pass
     
             elif event == "Submit":
                 img_path=values["-IN2-"]
@@ -189,8 +191,10 @@ class Spread:
         if gui==False:
             pass
         elif gui==True:
-            img_path, wm_text, wm_trans, font_size, save_to_path, output_filename = Spread.gui1()
-
+            try:
+                img_path, wm_text, wm_trans, font_size, save_to_path, output_filename = Spread.gui1()
+            except Exception:
+                return None
 
         #Creating Image Layers
         img = Image.open(img_path).convert("RGBA")
@@ -233,8 +237,11 @@ class Spread:
         if gui==False:
             pass
         elif gui==True:
-            folder_path, wm_text, wm_trans, font_size, save_to_path, filename, save_to_suffix = Spread.gui2()   
-    
+            try:
+                folder_path, wm_text, wm_trans, font_size, save_to_path, filename, save_to_suffix = Spread.gui2()   
+            except:
+                return None
+            
         file=os.scandir(folder_path)
         
         try:

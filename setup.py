@@ -14,7 +14,7 @@ with open("README.md", 'r') as f:
 
 setup(
    name='Watermarkd',
-   version='0.7.1.2',
+   version='0.7.2.0',
    description='A friendly watermarking tool with optional GUI component.',
    license="Apache-2.0",
    long_description=long_description,

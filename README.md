@@ -168,6 +168,7 @@ It's expected to be dominantly used by:
 | 0.7.1.0 | September 29, 2020 - New Version w/ batch GUI: __init__.py fixed, bugs fixed |
 | 0.7.1.1 | September 29, 2020 - New Version: code typo fixed |
 | 0.7.1.2 | September 29, 2020 - New Version: logo fixed, source code correct description added |
+| 0.7.2.0 | October 5, 2020 - New Version: GUI Exit behavior improved |
 
 ## Release Notes
 
@@ -178,6 +179,8 @@ It's expected to be dominantly used by:
 0.7.0.3 - Fixed __init__.py files for correct installation.
 
 0.7.1.0 - Added Batch GUI, fixed Cancel button, fixed path conflicts
+
+0.7.2.0 - When GUI is closed without picking any image or folder, instead of giving an error, function is terminated by returning None. This should allow repeat operations in a single session and make usage more convenient and smooth for users.
 
 ### Upcoming Work
 

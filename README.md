@@ -173,6 +173,7 @@ It's expected to be dominantly used by:
 | 0.7.1.1 | September 29, 2020 - New Version: code typo fixed |
 | 0.7.1.2 | September 29, 2020 - New Version: logo fixed, source code correct description added |
 | 0.7.2.0 | October 5, 2020 - New Version: GUI Exit behavior improved |
+| 0.7.2.1 | October 5, 2020 - New Version: Correct Version Name |
 
 ## Release Notes
 
@@ -185,6 +186,9 @@ It's expected to be dominantly used by:
 0.7.1.0 - Added Batch GUI, fixed Cancel button, fixed path conflicts
 
 0.7.2.0 - When GUI is closed without picking any image or folder, instead of giving an error, function is terminated by returning None. This should allow repeat operations in a single session and make usage more convenient and smooth for users.
+
+0.7.2.1 - Version name fixed
+
 
 ### Upcoming Work
 

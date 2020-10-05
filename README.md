@@ -7,7 +7,7 @@ Friendly Watermarking Software with GUI option.
 
 # Watermarkd User Manual
 
-You can find a couple of simple examples below. You are also welcome to visit this tutorial on holypython.com: [How to Use Watermarkd: A Batch Watermarking Library with GUI](https://holypython.com/watermarkd)
+You can find a couple of simple examples below. You are also welcome to visit this tutorial on holypython.com: [How to Use Watermarkd: A Batch Watermarking Library with GUI](https://holypython.com/watermarkd/)
 
 # Installation
 
@@ -52,7 +52,7 @@ import Watermarkd as wmd
 wmd.Spread.single(gui=True)
 ```
 
-[![Watermarkd_Single_GUI](https://raw.githubusercontent.com/holypython/Watermarkd/master/Watermarkd_Single_GUI.webp)]
+![Watermarkd_Single_GUI](https://raw.githubusercontent.com/holypython/Watermarkd/master/Watermarkd_Single_GUI.webp)
 
 ### Working Without GUI
 
@@ -74,7 +74,7 @@ import Watermarkd as wmd
 wmd.Spread.batch(folder_path=r"c://Users/ABC/Desktop/New_Photos")
 ```
 
-[![Watermarkd_Single_GUI](https://raw.githubusercontent.com/holypython/Watermarkd/master/Watermarkd_Batch_GUI.webp)]
+![Watermarkd_Single_GUI](https://raw.githubusercontent.com/holypython/Watermarkd/master/Watermarkd_Batch_GUI.webp)
 
 * Files will be saved to Desktop/watermarkd_/ folder by default.
 
